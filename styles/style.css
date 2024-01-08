@@ -349,8 +349,8 @@
   border-radius: 16px;
   margin: 5px;
 }
-.gift-items:hover{
-  filter: blur(2px);
+.gift-items:hover {
+  filter: blur(3px);
   cursor: pointer;
   border: 1px solid purple;
 }
@@ -377,4 +377,118 @@
 .gift-06 {
   background: url("../resources/Rectangle\ 8.png"),
     lightgray 50% / cover no-repeat;
+}
+
+/* newsletter section styles */
+.newsletter-section {
+  width: 1320px;
+  height: 616px;
+  margin: 120px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.email-logo {
+  width: 11%;
+  max-width: 150px;
+}
+.newsletter-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.newsletter-para {
+  max-width: 900px;
+  margin: 10px 212px 0px 212px;
+}
+.newsletter-input {
+  display: flex;
+  justify-content: flex-start;
+  margin: 45px 336px 80px 336px;
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+}
+.subs-btn {
+  align-self: flex-end;
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0;
+}
+.email-input {
+  margin: 0 auto;
+  border: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* footer section styles */
+.footer {
+  max-width: 1600px;
+  max-height: 650px;
+  margin: 0 auto;
+  background: #070211;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primary-footer-para {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-para{
+  max-width: 375px;
+  margin: 120px 100px 0px 110px;
+}
+.footer-rights{
+  max-width: 300px;
+  margin: 300px 0px 120px 140px;
+}
+
+.footer-links{
+  max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social{
+  max-width: 60px;
+  margin: 200px 50px 250px 50px;
+ 
+}
+
+.footer-contact{
+  max-width: 500px;
+  margin: 120px 200px 120px 100px;
+  justify-content: center;
+  align-items: center;
+}
+.connect{
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+.unsubscribe{
+  margin: 300px 0px 0px 200px;
+  background-color: black;
 }
