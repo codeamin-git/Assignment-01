@@ -250,6 +250,131 @@
   margin-top: 100px;
   margin-bottom: 5px;
 }
-.best-offer-year img{
+.best-offer-year img {
   margin-top: 40px;
+}
+
+/* functional holiday sale styles */
+.holiday-sale {
+  max-width: 1320px;
+  margin: 120px auto;
+}
+.flash-sale {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flash-sale-para {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.flash-sale-title span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.flash-sale-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.flash-sale-details {
+  margin: 0 auto;
+  max-width: 1100px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.flash-sale-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../resources/Rectangle\ 2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.discount-img {
+  width: 429px;
+  height: 433px;
+  margin: 0px 0px 170px 0px;
+  border-radius: 16px 16px 0px 0px;
+  background: url("../resources/Rectangle\ 1.png"),
+    lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+/* best gifts section styles */
+.best-gifts {
+  width: 1320px;
+  margin: 0 auto;
+}
+.best-gifts-container {
+  justify-content: center;
+  align-items: center;
+}
+.gifts-paragraph {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.gifts-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.gift-details {
+  max-width: 896px;
+}
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gift-items {
+  margin-top: 50px;
+  width: 424px;
+  height: 450px;
+  border-radius: 16px;
+  margin: 5px;
+}
+.gift-items:hover{
+  filter: blur(2px);
+  cursor: pointer;
+  border: 1px solid purple;
+}
+.gift-01 {
+  background: url("../resources/Rectangle\ 3.png"),
+    lightgray 0px -35.755px / 100% 142.115% no-repeat;
+}
+.gift-02 {
+  background: url("../resources/Rectangle\ 4.png"),
+    lightgray 50% / cover no-repeat;
+}
+.gift-03 {
+  background: url("../resources/Rectangle\ 5.png"),
+    lightgray 50% / cover no-repeat;
+}
+.gift-04 {
+  background: url("../resources/Rectangle\ 6.png"),
+    lightgray -195.366px 0px / 156.077% 100% no-repeat;
+}
+.gift-05 {
+  background: url("../resources/Rectangle\ 7.png"),
+    lightgray 50% / cover no-repeat;
+}
+.gift-06 {
+  background: url("../resources/Rectangle\ 8.png"),
+    lightgray 50% / cover no-repeat;
 }
