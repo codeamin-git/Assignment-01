@@ -229,14 +229,12 @@
   text-transform: capitalize;
   margin-bottom: 15px;
 }
-
 .upcoming-offers-img {
   margin-left: 30px;
   border: 20px solid red;
   border-radius: 50%;
   padding: 30px;
 }
-
 .best-offer-year {
   margin-left: 90px;
   justify-content: center;
@@ -291,23 +289,23 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .flash-sale-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("../resources/Rectangle\ 2.png");
-  background-size: contain;
+  background-image: url("../resources/Rectangle\ 2.png"),
+    url("../resources/Rectangle\ 1.png");
+  background-size: contain, auto;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom, top right;
 }
 .discount-img {
-  width: 429px;
-  height: 433px;
-  margin: 0px 0px 170px 0px;
-  border-radius: 16px 16px 0px 0px;
-  background: url("../resources/Rectangle\ 1.png"),
-    lightgray -59.98px 0px / 151.553% 100% no-repeat;
+  position: relative;
+  right: 280px;
+  bottom: 120px;
 }
 
 /* best gifts section styles */
@@ -441,13 +439,11 @@
 
 /* footer section styles */
 .footer {
-  max-width: 1600px;
-  max-height: 650px;
   margin: 0 auto;
+  width: 1600px;
+  height: 650px;
+  flex-shrink: 0;
   background: #070211;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .primary-footer-para {
   color: #fff;
@@ -457,38 +453,37 @@
   font-weight: 500;
   line-height: 40px;
 }
-.footer-para{
+
+.full-address {
   max-width: 375px;
-  margin: 120px 100px 0px 110px;
+  margin-top: 120px;
 }
-.footer-rights{
-  max-width: 300px;
-  margin: 300px 0px 120px 140px;
+.hotline {
+  max-width: 375px;
+  margin-top: 120px;
 }
-
-.footer-links{
-  max-width: 200px;
+.footer-address {
+  margin: 0px 290px 100px 140px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.social{
-  max-width: 60px;
-  margin: 200px 50px 250px 50px;
- 
+  justify-content: space-between;
 }
 
-.footer-contact{
-  max-width: 500px;
-  margin: 120px 200px 120px 100px;
+.footer-links {
+  display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
-.connect{
-  max-width: 400px;
-  margin-bottom: 10px;
+
+.footer-bottom {
+  margin: 100px 140px 120px 140px;
+  display: flex;
+  justify-content: space-between;
 }
-.unsubscribe{
-  margin: 300px 0px 0px 200px;
-  background-color: black;
+.rights {
+  max-width: 300px;
+}
+.unsub-btn {
+  background: #070211;
+  max-width: 300px;
 }
